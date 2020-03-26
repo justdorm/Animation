@@ -1,0 +1,25 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.images {
+  height: 100vh;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("images/utopia.jpg");
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+.images:hover {
+  height: 100vh;
+  width: auto;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("images/trash.jpg");
+}
